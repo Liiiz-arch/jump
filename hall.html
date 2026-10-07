@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>游戏大厅 - 马里奥游戏集合站</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="hall-header">
+    <div class="brand">
+      <span class="logo-icon">🍄</span>
+      <span>超级游戏合集</span>
+    </div>
+    <div class="user-box">
+      <span id="playerName">玩家</span>
+      <div class="user-avatar">👤</div>
+      <button id="logoutBtn" class="pixel-btn gray" style="padding:8px 12px;font-size:10px;">退出</button>
+    </div>
+  </header>
+
+  <main class="hall-main">
+    <div class="hall-hero">
+      <h1>游戏大厅</h1>
+      <p>选择一个游戏，开始冒险！<br>全部用键盘操作 · 复古像素体验</p>
+    </div>
+
+    <div class="game-grid" id="gameGrid">
+      <!-- 游戏卡片由 js 动态生成 -->
+    </div>
+
+    <footer class="hall-footer">
+      🍄 SUPER GAME COLLECTION · 像素复古 · 2000s<br>
+      致敬经典，仅供学习娱乐
+    </footer>
+  </main>
+
+  <script src="js/hall.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>登录 - 马里奥游戏集合站</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="login-wrap">
+    <div class="deco-cloud" style="top:15%;left:10%;">☁</div>
+    <div class="deco-cloud" style="top:70%;right:12%;animation-delay:2s;">☁</div>
+    <div class="deco-cloud" style="bottom:8%;left:25%;animation-delay:4s;">☁</div>
+
+    <div class="login-card pixel-panel">
+      <div class="logo">🍄</div>
+      <h1 class="pixel-title">超级游戏合集</h1>
+      <div class="subtitle">SUPER GAME COLLECTION · 2000</div>
+
+      <form id="loginForm" autocomplete="off">
+        <div class="form-row">
+          <label for="username">▶ 玩家昵称 PLAYER</label>
+          <input
+            type="text"
+            id="username"
+            class="pixel-input"
+            placeholder="输入你的昵称..."
+            maxlength="12"
+            autocomplete="off">
+        </div>
+        <div class="login-error" id="loginError"></div>
+        <div class="btn-row">
+          <button type="submit" class="pixel-btn" style="width:100%">▶ 开始游戏 START</button>
+        </div>
+      </form>
+
+      <div class="hint">
+        <b>← →</b> 移动 &nbsp; <b>空格</b> 跳跃<br>
+        集齐金币 · 顶碎砖块 · 躲避敌人
+      </div>
+    </div>
+  </div>
+
+  <script src="js/login.js"></script>
+</body>
+</html>
